@@ -29,7 +29,7 @@ const VTagInput = {
 
 export default VTagInput
 
-if (windows && window.Vue) { // auto register if Vue is global
+if (window && window.Vue) { // auto register if Vue is global
   Vue.component(VTagInput.name, VTagInput)
 }
 </script>
