@@ -1,0 +1,16 @@
+{
+  "name": "v-tag-input",
+  "version": "0.0.1",
+  "description": "Vue.js tiny tag input control",
+  "main": "dist/v-tag-input.js",
+  "scripts": {
+    "dist": "vue build v-tag-input.vue --config build.config.js --dist ./dist/ --prod --lib",
+    "play": "vue build play.vue"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": ["vue", "tag", "input", "component", "control"],
+  "author": "Marcos Neves <marcos.neves@gmail.com> (http://neves.github.io/)",
+  "license": "MIT"
+}
