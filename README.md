@@ -10,7 +10,7 @@ https://jsfiddle.net/neves/7wenm8rv/3/
 
 ## Usage
 
-Just bind a array of tags to `v-model` property
+Just bind an array of tags to `v-model` property
 
 ```html
 <template>
