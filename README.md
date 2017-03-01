@@ -6,7 +6,32 @@ Tiny tag input for Vue.js
 
 ## Demo
 
+https://jsfiddle.net/neves/7wenm8rv/3/
+
 ## Usage
+
+Just bind a array of tags to `v-model` property
+
+```javascript
+<template>
+<div>
+  <v-tag-input v-model="tags"></v-tag-input> {{tags}}
+</div>
+</template>
+
+<script>
+import VTagInput from 'v-tag-input'
+
+export default {
+  components: {VTagInput},
+  data () {
+    return {
+      tags: ['foo', 'bar']
+    }
+  }
+}
+</script>
+```
 
 ## Installation
 
