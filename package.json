@@ -4,7 +4,8 @@
   "description": "Vue.js tiny tag input control",
   "main": "dist/v-tag-input.js",
   "scripts": {
-    "dist": "vue build v-tag-input.vue --config build.config.js --dist ./dist/ --prod --lib VTagInput",
+    "dist": "vue build ./v-tag-input.js --config ./build.config.js --dist ./dist/ --prod --lib VTagInput",
+    "build": "yarn dist -- --disable-compress",
     "play": "vue build play.vue"
   },
   "files": [

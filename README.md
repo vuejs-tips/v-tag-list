@@ -1,6 +1,5 @@
-[![Build Status](https://travis-ci.org/vuejs-tips/v-tag-input.svg?branch=master)](https://travis-ci.org/vuejs-tips/v-tag-input.svg)
-[![codecov](https://codecov.io/gh/vuejs-tips/v-tag-input.svg/branch/master/graph/badge.svg)](https://codecov.io/gh/vuejs-tips/v-tag-input.svg)
 [![npm](https://img.shields.io/npm/v/v-tag-input.svg.svg)]()
+
 # Vue Tag Input
 
 Tiny tag input for Vue.js
@@ -26,3 +25,4 @@ You're free to contribute to this project by submitting [issues](https://github.
 ## License
 
 This project is licensed under [MIT License](http://en.wikipedia.org/wiki/MIT_License)
+Build inspired by [vue-plugin-template](https://github.com/posva/vue-plugin-template)

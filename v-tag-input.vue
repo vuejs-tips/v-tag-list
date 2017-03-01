@@ -26,8 +26,4 @@ export default {
     }
   }
 }
-
-if (window && window.Vue && this.default) { // auto register if Vue is global
-  Vue.component(this.default.name, this.default)
-}
 </script>

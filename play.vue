@@ -23,7 +23,10 @@
 </template>
 
 <script>
-import VTagInput from './v-tag-input'
+// can import from js, or directly from .vue
+import {VTagInput} from './v-tag-input.js'
+// import VTagInput from './v-tag-input.vue'
+
 export default {
   components: {VTagInput},
   data () {
