@@ -12,7 +12,7 @@ https://jsfiddle.net/neves/7wenm8rv/3/
 
 Just bind a array of tags to `v-model` property
 
-```javascript
+```html
 <template>
 <div>
   <v-tag-input v-model="tags"></v-tag-input> {{tags}}
