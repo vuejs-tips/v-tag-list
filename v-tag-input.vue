@@ -3,7 +3,7 @@
 </template>
 
 <script>
-const VTagInput = {
+export default {
   name: 'v-tag-input',
   props: {
     value: {
@@ -27,9 +27,7 @@ const VTagInput = {
   }
 }
 
-export default VTagInput
-
-if (window && window.Vue) { // auto register if Vue is global
-  Vue.component(VTagInput.name, VTagInput)
+if (window && window.Vue && this.default) { // auto register if Vue is global
+  Vue.component(this.default.name, this.default)
 }
 </script>
