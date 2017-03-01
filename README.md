@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/v-tag-input.svg.svg)]()
+[![npm](https://img.shields.io/npm/v/v-tag-input.svg)]()
 
 # Vue Tag Input
 
@@ -6,11 +6,13 @@ Tiny tag input for Vue.js
 
 ## Demo
 
-https://jsfiddle.net/neves/7wenm8rv/3/
+https://jsfiddle.net/neves/7wenm8rv/4/
 
 ## Usage
 
-Just bind an array of tags to `v-model` property
+Just bind an array of tags to `v-model` property.
+
+There's a separator property default to use *space*, but you can change it to *comma*.  
 
 ```html
 <template>
@@ -41,7 +43,7 @@ export default {
 
 ### Using npm
 
-`npm i v-tag-input`
+`npm i --save v-tag-input`
 
 ## Contribution
 
@@ -50,4 +52,5 @@ You're free to contribute to this project by submitting [issues](https://github.
 ## License
 
 This project is licensed under [MIT License](http://en.wikipedia.org/wiki/MIT_License)
+
 Build inspired by [vue-plugin-template](https://github.com/posva/vue-plugin-template)
