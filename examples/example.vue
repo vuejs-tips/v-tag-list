@@ -31,9 +31,8 @@
 </template>
 
 <script>
-// can import from js, or directly from .vue
-import VTagList from '../src/index.js'
-// import VTagList from '../src/Component.vue'
+
+import VTagList from '../src/Component.vue'
 
 export default {
   components: {VTagList},

@@ -2,24 +2,23 @@
   "name": "v-tag-list",
   "version": "0.0.1",
   "description": "Vue.js tiny tag list view component",
+  "homepage": "https://medium.com/vuejs-tips",
+  "author": "Marcos Neves <marcos.neves@gmail.com> (https://medium.com/vuejs-tips)",
   "main": "dist/v-tag-list.js",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "dist": "vue build ./src/index.js --config ./build.config.js --dist ./dist/ --prod",
     "build": "yarn dist -- --disable-compress",
     "example:html": "open 'http://localhost:3000/examples/example.html'; serve .",
-    "example:vue": "vue build ./examples/example.vue --config ./build.config.js --open"
+    "example:vue": "vue build ./examples/example.vue --open"
   },
-  "files": [
-    "dist/"
-  ],
   "keywords": [
     "vue",
     "tag",
     "component",
     "list"
-  ],
-  "author": "Marcos Neves <marcos.neves@gmail.com> (http://neves.github.io/)",
-  "license": "MIT",
-  "devDependencies": {
-  }
+  ]
 }
