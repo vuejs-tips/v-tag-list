@@ -6,7 +6,7 @@ Tiny tag list view for Vue.js
 
 ## Demo
 
-https://htmlpreview.github.io/?https://github.com/vuejs-tips/v-tag-list/master/examples/example.html
+https://htmlpreview.github.io/?https://github.com/vuejs-tips/v-tag-list/master/demo/index.html
 
 ## Usage
 

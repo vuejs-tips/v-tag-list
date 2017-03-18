@@ -32,7 +32,7 @@
 
 <script>
 
-import VTagList from '../src/Component.vue'
+import VTagList from '../src/index.js'
 
 export default {
   components: {VTagList},
