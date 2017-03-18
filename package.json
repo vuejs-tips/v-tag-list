@@ -10,10 +10,13 @@
     "dist/"
   ],
   "scripts": {
-    "dist": "vue build ./src/index.js --config ./build.config.js --dist ./dist/ --prod",
-    "build": "yarn dist -- --disable-compress",
-    "example:html": "open 'http://localhost:3000/examples/example.html'; serve .",
-    "example:vue": "vue build ./examples/example.vue --open"
+    "dist": "vue build ./src/index.js --config ./build.config.js --dist ./dist/ --prod --lib",
+    "dist:demo": "vue build ./src/demo.vue --config ./build.config.js --dist ./demo/ --prod",
+    "build": "npm run dist -- --disable-compress",
+    "start": "npm run dev",
+    "dev": "vue build ./src/demo.vue --config ./build.config.js",
+    "demo:open": "open 'http://localhost:3000/'; serve ./demo/",
+    "deploy": "npm version patch && npm run dist && npm run dist:demo"
   },
   "keywords": [
     "vue",
