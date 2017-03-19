@@ -12,8 +12,6 @@ https://htmlpreview.github.io/?https://github.com/vuejs-tips/v-tag-list/master/d
 
 Just bind an array of tags using `v-model` directive or **value** property.
 
-There's a separator property default to use *space*, but you can change it to *comma*.  
-
 ```html
 <template>
   <div>
